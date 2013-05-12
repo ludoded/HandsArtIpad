@@ -8,7 +8,7 @@
 
 #import "HHLikePhotoViewController.h"
 #import "ImageFilter.h"
-#import "HHChooseQuestionViewController.h"
+#import "HHWriteAnswerViewController.h"
 
 @interface HHLikePhotoViewController () {
     UIImage * grayOrigImage;
@@ -56,8 +56,8 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"ChooseAQuestion"]) {
-        HHChooseQuestionViewController * viewController = segue.destinationViewController;
+    if ([segue.identifier isEqualToString:@"WriteAnswerView"]) {
+        HHWriteAnswerViewController * viewController = segue.destinationViewController;
         viewController.image = grayOrigImage;
     }
 }

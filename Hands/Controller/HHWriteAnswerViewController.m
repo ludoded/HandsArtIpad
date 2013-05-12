@@ -41,18 +41,7 @@
     
     // Boolean setting
     imgPickerDismissed = NO;
-    _annotationButton.selected = YES;
-    _fadeView.hidden = YES;
-    [_questionBackgroundView genieInTransitionWithDuration:.01f
-                                           destinationRect:_annotationButton.frame
-                                           destinationEdge:BCRectEdgeBottom
-                                                completion:^(){
-                                                    _questionBackgroundView.hidden = YES;
-                                                    shouldDraw = YES;
-                                                }];
 }
-
-
 
 - (void)viewDidUnload {
     [self setQuestionBackgroundView:nil];

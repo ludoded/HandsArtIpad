@@ -58,6 +58,14 @@
 		63B3716F172AF5DF00D1707F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B3716E172AF5DE00D1707F /* AVFoundation.framework */; };
 		63B37172172AF61D00D1707F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B37170172AF61D00D1707F /* CoreMedia.framework */; };
 		63B37173172AF61D00D1707F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B37171172AF61D00D1707F /* CoreVideo.framework */; };
+		63B40D7F173FF32B003E97BD /* home icon tapped.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B40D7E173FF32B003E97BD /* home icon tapped.png */; };
+		63B40D81173FF385003E97BD /* question icon tapped.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B40D80173FF385003E97BD /* question icon tapped.png */; };
+		63B40D83173FF6CE003E97BD /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B40D82173FF6CE003E97BD /* Default-Portrait~ipad.png */; };
+		63B40D85173FF6D9003E97BD /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B40D84173FF6D9003E97BD /* Default-Portrait@2x~ipad.png */; };
+		63B40D87173FF719003E97BD /* small icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B40D86173FF719003E97BD /* small icon.png */; };
+		63B40D89173FF720003E97BD /* big icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B40D88173FF720003E97BD /* big icon.png */; };
+		63B40D8C173FF74C003E97BD /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 63B40D8A173FF74C003E97BD /* iTunesArtwork */; };
+		63B40D8D173FF74C003E97BD /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 63B40D8B173FF74C003E97BD /* iTunesArtwork@2x */; };
 		63C8C473172D4C11003C752B /* HHChooseQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8C472172D4C11003C752B /* HHChooseQuestionViewController.m */; };
 		63C8C476172D6911003C752B /* HHWriteAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8C475172D6911003C752B /* HHWriteAnswerViewController.m */; };
 		63C8C47A172D6920003C752B /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8C479172D6920003C752B /* UIView+Genie.m */; };
@@ -117,7 +125,6 @@
 		63DF82D31739528C00099A86 /* step 3 box.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 63DF82811739528C00099A86 /* step 3 box.tiff */; };
 		63DF82D41739528C00099A86 /* circle 3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 63DF82821739528C00099A86 /* circle 3.tiff */; };
 		63DF82D71739528C00099A86 /* step 3irregular bar.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 63DF82851739528C00099A86 /* step 3irregular bar.tiff */; };
-		63DF82D81739528C00099A86 /* question icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 63DF82861739528C00099A86 /* question icon.tiff */; };
 		63DF82D91739528C00099A86 /* step 3 Shape 2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 63DF82871739528C00099A86 /* step 3 Shape 2.tiff */; };
 		63DF82DA1739528C00099A86 /* step 3 texture.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 63DF82881739528C00099A86 /* step 3 texture.tiff */; };
 		63DF82DB1739528C00099A86 /* What  something you’ve  made  by  hand  that  you  are  proud  .tiff in Resources */ = {isa = PBXBuildFile; fileRef = 63DF82891739528C00099A86 /* What  something you’ve  made  by  hand  that  you  are  proud  .tiff */; };
@@ -224,6 +231,14 @@
 		63B3716E172AF5DE00D1707F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		63B37170172AF61D00D1707F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		63B37171172AF61D00D1707F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		63B40D7E173FF32B003E97BD /* home icon tapped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home icon tapped.png"; sourceTree = "<group>"; };
+		63B40D80173FF385003E97BD /* question icon tapped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question icon tapped.png"; sourceTree = "<group>"; };
+		63B40D82173FF6CE003E97BD /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		63B40D84173FF6D9003E97BD /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		63B40D86173FF719003E97BD /* small icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small icon.png"; sourceTree = "<group>"; };
+		63B40D88173FF720003E97BD /* big icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big icon.png"; sourceTree = "<group>"; };
+		63B40D8A173FF74C003E97BD /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Hands/Resources/iTunesArtwork; sourceTree = "<group>"; };
+		63B40D8B173FF74C003E97BD /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "Hands/Resources/iTunesArtwork@2x"; sourceTree = "<group>"; };
 		63C8C471172D4C11003C752B /* HHChooseQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHChooseQuestionViewController.h; path = Controller/HHChooseQuestionViewController.h; sourceTree = "<group>"; };
 		63C8C472172D4C11003C752B /* HHChooseQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHChooseQuestionViewController.m; path = Controller/HHChooseQuestionViewController.m; sourceTree = "<group>"; };
 		63C8C474172D6910003C752B /* HHWriteAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHWriteAnswerViewController.h; path = Controller/HHWriteAnswerViewController.h; sourceTree = "<group>"; };
@@ -287,7 +302,6 @@
 		63DF82811739528C00099A86 /* step 3 box.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "step 3 box.tiff"; sourceTree = "<group>"; };
 		63DF82821739528C00099A86 /* circle 3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "circle 3.tiff"; sourceTree = "<group>"; };
 		63DF82851739528C00099A86 /* step 3irregular bar.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "step 3irregular bar.tiff"; sourceTree = "<group>"; };
-		63DF82861739528C00099A86 /* question icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "question icon.tiff"; sourceTree = "<group>"; };
 		63DF82871739528C00099A86 /* step 3 Shape 2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "step 3 Shape 2.tiff"; sourceTree = "<group>"; };
 		63DF82881739528C00099A86 /* step 3 texture.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "step 3 texture.tiff"; sourceTree = "<group>"; };
 		63DF82891739528C00099A86 /* What  something you’ve  made  by  hand  that  you  are  proud  .tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "What  something you’ve  made  by  hand  that  you  are  proud  .tiff"; sourceTree = "<group>"; };
@@ -582,6 +596,7 @@
 		63DF82631739528B00099A86 /* top bar */ = {
 			isa = PBXGroup;
 			children = (
+				63B40D7E173FF32B003E97BD /* home icon tapped.png */,
 				63DF82641739528B00099A86 /* step1 box.tiff */,
 				63DF82651739528B00099A86 /* circle 1.tiff */,
 				63DF82661739528B00099A86 /* home icon.tiff */,
@@ -654,7 +669,6 @@
 				63DF82811739528C00099A86 /* step 3 box.tiff */,
 				63DF82821739528C00099A86 /* circle 3.tiff */,
 				63DF82851739528C00099A86 /* step 3irregular bar.tiff */,
-				63DF82861739528C00099A86 /* question icon.tiff */,
 				63DF82871739528C00099A86 /* step 3 Shape 2.tiff */,
 				63DF82881739528C00099A86 /* step 3 texture.tiff */,
 			);
@@ -682,6 +696,7 @@
 		63DF82921739528C00099A86 /* top bar */ = {
 			isa = PBXGroup;
 			children = (
+				63B40D80173FF385003E97BD /* question icon tapped.png */,
 				63DF82931739528C00099A86 /* step 4 box.tiff */,
 				63DF82941739528C00099A86 /* circle 4.tiff */,
 				63DF82971739528C00099A86 /* step 4 irregular bar.tiff */,
@@ -696,6 +711,12 @@
 		63F08F2C17218D6400CC19C5 = {
 			isa = PBXGroup;
 			children = (
+				63B40D8A173FF74C003E97BD /* iTunesArtwork */,
+				63B40D8B173FF74C003E97BD /* iTunesArtwork@2x */,
+				63B40D88173FF720003E97BD /* big icon.png */,
+				63B40D86173FF719003E97BD /* small icon.png */,
+				63B40D84173FF6D9003E97BD /* Default-Portrait@2x~ipad.png */,
+				63B40D82173FF6CE003E97BD /* Default-Portrait~ipad.png */,
 				63B37170172AF61D00D1707F /* CoreMedia.framework */,
 				63B37171172AF61D00D1707F /* CoreVideo.framework */,
 				63B3716E172AF5DE00D1707F /* AVFoundation.framework */,
@@ -929,7 +950,6 @@
 				63DF82D31739528C00099A86 /* step 3 box.tiff in Resources */,
 				63DF82D41739528C00099A86 /* circle 3.tiff in Resources */,
 				63DF82D71739528C00099A86 /* step 3irregular bar.tiff in Resources */,
-				63DF82D81739528C00099A86 /* question icon.tiff in Resources */,
 				63DF82D91739528C00099A86 /* step 3 Shape 2.tiff in Resources */,
 				63DF82DA1739528C00099A86 /* step 3 texture.tiff in Resources */,
 				63DF82DB1739528C00099A86 /* What  something you’ve  made  by  hand  that  you  are  proud  .tiff in Resources */,
@@ -962,6 +982,14 @@
 				6317CC70173DCBF200F37ABB /* reshoot button.tiff in Resources */,
 				6317CC73173DDF9900F37ABB /* redo button.tiff in Resources */,
 				6317CC74173DDF9900F37ABB /* submit button.tiff in Resources */,
+				63B40D7F173FF32B003E97BD /* home icon tapped.png in Resources */,
+				63B40D81173FF385003E97BD /* question icon tapped.png in Resources */,
+				63B40D83173FF6CE003E97BD /* Default-Portrait~ipad.png in Resources */,
+				63B40D85173FF6D9003E97BD /* Default-Portrait@2x~ipad.png in Resources */,
+				63B40D87173FF719003E97BD /* small icon.png in Resources */,
+				63B40D89173FF720003E97BD /* big icon.png in Resources */,
+				63B40D8C173FF74C003E97BD /* iTunesArtwork in Resources */,
+				63B40D8D173FF74C003E97BD /* iTunesArtwork@2x in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
