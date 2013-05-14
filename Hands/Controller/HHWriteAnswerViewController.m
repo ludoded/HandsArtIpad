@@ -93,7 +93,7 @@
     NSString * pathOfImage = [self pathOfSavedImage];
     
     NSDateFormatter * formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"dd-MM-yyyy hh:mm:ss"];
+    [formatter setDateFormat:@"yyyy-MM-dd hh:mm:ss"];
     [SVProgressHUD showWithStatus:@"Your hand is uploading..." maskType:SVProgressHUDMaskTypeGradient];
     [[self restClient] uploadFile:[NSString stringWithFormat:@"hand-%@.jpg", [formatter stringFromDate:[NSDate date]]] toPath:@"/" withParentRev:nil fromPath:pathOfImage];
 }
